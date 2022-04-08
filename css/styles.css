@@ -1,0 +1,220 @@
+
+:root {
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --secondary-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --primary-white-color: rgba(255, 255, 255, 1);
+  --secondary-section-color: rgba(245, 244, 250, 1);
+  --slave-bcg-color: rgba(47, 48, 58, 1);
+  --contacts-footer: rgba(255, 255, 255, 0.6);
+  }
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+.accent {
+  color: var(--accent-color);
+}
+.logo {
+  text-decoration-line: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+}
+.contacts-header {
+  font-style: normal;
+  text-decoration: none;  
+  color: var(--secondary-text-color);
+  font-weight: 500;
+}
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--accent-color);
+  
+}
+.contacts-footer {
+  text-decoration-line: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--contacts-footer);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+  text-decoration-line: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.vision-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.list {
+  list-style-type: none;
+}
+.main-menu-link {
+  text-decoration-line: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.main-menu-link:hover,
+.main-menu-link:focus {
+  color: var(--accent-color);
+}
+
+.current{
+  color: var(--accent-color);
+}
+.hero {
+  background-color: var(--slave-bcg-color);
+}
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.hero-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: rgba(33, 150, 243, 1);
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.filter-button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color:var(--secondary-section-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color:var(--accent-color);
+}
+.vision-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.secondary-section{
+  background-color: var(--secondary-section-color);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.crew-card {
+  width: 270px;
+  height: 368px;
+  background-color: var(--primary-white-color);
+}
+.project-card {
+  width: 370px;
+  height: 404px;
+}
+.project-category {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.crew-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.crew-job { 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.address-link {
+  text-decoration:none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.main-footer {
+  background-color: var(--slave-bcg-color);
+}
+.logo-white {
+  color: var(--primary-white-color);
+}

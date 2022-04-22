@@ -371,8 +371,9 @@ body {
   margin: -15px;
 }
 
-.crew-photo {
-  margin-bottom: 30px;
+.crew-tag {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .crew-name {
@@ -387,8 +388,7 @@ body {
 }
 
 .crew-job {
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0;
 
   text-align: center;
   font-weight: 400;

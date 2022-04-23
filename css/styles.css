@@ -36,26 +36,16 @@ body {
   color: var(--accent-color);
 }
 
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.bkgnd-white {
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
-}
-
-.bkgnd-black {
-  margin: auto;
-
-  background-color: var(--slave-bcg-color);
-}
-
-.bkgnd-grey {
+.secnd-section-color {
   background-color: var(--secondary-section-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.hrznt-cent {
+  align-items:center;
 }
 
 .hide {
@@ -64,6 +54,58 @@ body {
 
 .section.cut-top {
   padding-top: 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-header {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.main-manu {
+  display: flex;
+  margin-left: 93px;
+}
+
+.main-manu .link+.link {
+  margin-left: 50px;
+}
+
+.address-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.address-nav>.address-link+.address-link {
+  margin-left: 50px;
+}
+
+.main-menu-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  text-decoration-line: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.main-menu-link:hover,
+.main-menu-link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .logo, .logo-footer {
@@ -76,6 +118,7 @@ body {
 }
 
 .logo-footer {
+  display: block;
   margin-bottom: 20px;
 } 
 
@@ -124,51 +167,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   
-}
-
-.main-header {
-  display: flex;
-  align-items: center;
-}
-
-.main-manu {
-  display: flex;
-  margin-left: 93px;
-}
-
-.main-manu .link + .link {
-  margin-left: 50px;
-}
-
-.address-nav {
-  display: flex;
-  margin-left: auto;
-}
-
-.address-nav > .address-link + .address-link {
-  margin-left: 50px;
-}
-
-.main-menu-link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  text-decoration-line: none;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-
-.main-menu-link:hover,
-.main-menu-link:focus {
-  color: var(--accent-color);
-}
-
-.current {
-  color: var(--accent-color);
 }
 
 .hero {
@@ -410,10 +408,11 @@ body {
 }
 
 .main-footer {
-  display: flex;
-  flex-direction: column;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: auto;
+  
+  background-color: var(--slave-bcg-color);
 }
 
 .address-footer {
